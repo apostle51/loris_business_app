@@ -1,0 +1,49 @@
+name: loris_bussiness
+description: A new Flutter project.
+publish_to: "none"
+version: 1.0.0+1
+environment:
+  sdk: ">=2.17.3 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  get: ^4.6.5
+  http: ^0.13.4
+  uuid: ^3.0.6
+  overlay_support: ^2.0.1
+  flutter_svg: ^1.1.1+1
+  animate_do: ^2.1.0
+  carousel_slider: ^4.1.1
+  url_launcher: ^6.1.5
+  flutter_staggered_grid_view: ^0.4.1
+  skeleton_text: ^3.0.0
+  flutter_html: ^3.0.0-alpha.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/images/banner/
+    - assets/images/logo/
+    - assets/images/svgicons/
+
+  fonts:
+    - family: Urbanist
+      fonts:
+        - asset: assets/fonts/Urbanist-Thin.ttf
+          weight: 200
+        - asset: assets/fonts/Urbanist-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Urbanist-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Urbanist-Medium.ttf
+          weight: 600
+        - asset: assets/fonts/Urbanist-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Urbanist-Black.ttf
+          weight: 900
