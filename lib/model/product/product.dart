@@ -477,8 +477,8 @@ class Serial {
         titleLink: json["title_link"],
         serialCode: json["serial_code"] == null ? null : json["serial_code"],
         defaultList: json["default_list"] == null ? null : json["default_list"],
-        isNew: json["isNew"] == null ? null : json["isNew"],
-        isSale: json["isSale"] == null ? null : json["isSale"],
+        isNew: json["isNew"] == null ? null : json["isNew"].toString(),
+        isSale: json["isSale"] == null ? null : json["isSale"].toString(),
         minOrderQuantity: json["min_order_quantity"] == null
             ? null
             : json["min_order_quantity"],
